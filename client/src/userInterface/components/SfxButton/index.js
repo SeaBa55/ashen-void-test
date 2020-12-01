@@ -12,9 +12,9 @@ export default function SfxButton() {
   const toggle = (event) => {
     event.preventDefault();
     event.stopPropagation();
-    if(event.target.id==='play'){
+    if(!sfx.soundEnabled){
       sfx.mute(true);
-    }else if(event.target.id==='mute'){
+    }else{
       sfx.mute(false);
     }
   };
