@@ -72,7 +72,7 @@ function useProvideSfx() {
   );
 
   const mute = (enable) => {
-    if(arguments[0]) {
+    if(enable) {
       setSFXAuto(false);
       setAuto(true);
       setSoundEnabled(true);
