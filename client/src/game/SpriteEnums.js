@@ -1070,7 +1070,7 @@ const SPRITE_ENUM = {
      * @description HOVER ME => "../../public/Assets/sounds/372182__supersound23__pop_short.mp3"
      */
     "Sound_pop_0": {
-        src: "./Assets/sounds/372182__supersound23__pop_short.mp3",
+        src: "./Assets/Sounds/372182__supersound23__pop_short.mp3",
     },
     /**
      * @description HOVER ME => "../../public/Assets/sounds/416417__superphat__automatic-assault-rifle_shot_1.mp3"
@@ -1196,49 +1196,49 @@ const SPRITE_ENUM = {
      * @description HOVER ME => "../../public/Assets/sounds/522706__fran-ky__075-fm-ellberge-part-2.mp3"
      */
     "Sound_background_0": {
-        src: "./Assets/sounds/522706__fran-ky__075-fm-ellberge-part-2.mp3",
+        src: "./Assets/Sounds/522706__fran-ky__075-fm-ellberge-part-2.mp3",
     },
     /**
      * @description HOVER ME => "../../public/Assets/sounds/395487__frankum__tecno-pop-base-and-guitar-2.mp3"
      */
     "Sound_background_1": {
-        src: "./Assets/sounds/395487__frankum__tecno-pop-base-and-guitar-2.mp3",
+        src: "./Assets/Sounds/395487__frankum__tecno-pop-base-and-guitar-2.mp3",
     },
     /**
      * @description HOVER ME => "../../public/Assets/sounds/404452__furbyguy__synthwave-loop.mp3"
      */
     "Sound_background_2": {
-        src: "./Assets/sounds/404452__furbyguy__synthwave-loop.mp3",
+        src: "./Assets/Sounds/404452__furbyguy__synthwave-loop.mp3",
     },
     /**
      * @description HOVER ME => "../../public/Assets/sounds/525290__disquantic__cyberpunk-beat.mp3"
      */
     "Sound_background_3": {
-        src: "./Assets/sounds/525290__disquantic__cyberpunk-beat.mp3",
+        src: "./Assets/Sounds/525290__disquantic__cyberpunk-beat.mp3",
     },
     /**
      * @description HOVER ME => "../../public/Assets/sounds/457886__doctor-dreamchip__2018-08-03-loop.mp3"
      */
     "Sound_background_4": {
-        src: "./Assets/sounds/457886__doctor-dreamchip__2018-08-03-loop.mp3",
+        src: "./Assets/Sounds/457886__doctor-dreamchip__2018-08-03-loop.mp3",
     },
     /**
      * @description HOVER ME => "../../public/Assets/sounds/514960__deleted-user-11009121__synthwave-loop-100bpm-loop.mp3"
      */
     "Sound_background_5": {
-        src: "./Assets/sounds/514960__deleted-user-11009121__synthwave-loop-100bpm-loop.mp3",
+        src: "./Assets/Sounds/514960__deleted-user-11009121__synthwave-loop-100bpm-loop.mp3",
     },
     /**
      * @description HOVER ME => "../../public/Assets/sounds/489042__michael-db__synthontherun-loop.mp3"
      */
     "Sound_background_6": {
-        src: "./Assets/sounds/489042__michael-db__synthontherun-loop.mp3",
+        src: "./Assets/Sounds/489042__michael-db__synthontherun-loop.mp3",
     },
     /**
      * @description HOVER ME => "../../public/Assets/sounds/202077__djgriffin__beet-loop.mp3"
      */
     "Sound_background_7": {
-        src: "./Assets/sounds/202077__djgriffin__beet-loop.mp3",
+        src: "./Assets/Sounds/202077__djgriffin__beet-loop.mp3",
     },
 
     /* #endregion */
