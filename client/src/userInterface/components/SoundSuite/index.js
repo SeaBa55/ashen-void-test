@@ -1,15 +1,15 @@
 import React, { useState, useContext, createContext } from 'react';
 import useSound from 'use-sound';
 import soundEnums from '../../../game/SpriteEnums.js';
-import SfxOptions from '../SfxOptions/index';
-import ButtonGroup from 'react-bootstrap/ButtonGroup';
+// import SfxOptions from '../SfxOptions/index';
+// import ButtonGroup from 'react-bootstrap/ButtonGroup';
 
 import './style.css'
 import SfxButton from '../SfxButton/index.js';
 
 function SoundSuite({ children }) {
   const sfx = useProvideSfx();
-    
+  console.log(sfx);
   return (
     <>
       <sfxContext.Provider value={sfx}>
