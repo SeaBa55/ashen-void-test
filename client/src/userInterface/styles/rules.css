@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Coda&display=swap');
+
+
+
+#routeButtons {
+    position: absolute;
+    top: 200%;
+}
+
+
+label {
+    color: whitesmoke;
+}
+
+h1 {
+color: whitesmoke;
+font-family: 'Coda', cursive;
+}
+
+/* 
+#codaFont {
+    font-family: 'Coda', cursive;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+} */

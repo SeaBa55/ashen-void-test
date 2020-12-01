@@ -1,70 +1,29 @@
-# Getting Started with Create React App
+# Ashen Void
+A react-based Tower Defense game
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## What is Ashen Void?
+Ashen Void is an online tower defense game without a preset path or placement restrictions. The player loads into the cold emptiness of space with nothing but a planet to defend and waves of enemy spaceships looking to wreak havoc. Place walls to corrale the spaceships into strategic locations and then destroy them by building towers. Towers require Tower bases to be built, but can be bought, sold, and upgraded without removing the base itself. Each base must be placed on a wall segment. Each round a new set of enemies will spawn, and as they are destroyed the player can use the cash to build or upgrade their defenses. However, the walls must be placed in between rounds in order to guarantee that the creeps have a way through. Got to give them a fighting chance! 
 
-## Available Scripts
+## Why was Ashen Void created?
+This game was completed as the final project in Michigan State University's full stack web development bootcamp by a team of students passionate for game development. Especially fond of tower defense games like Bloons Tower Defense or Canyon Tower Defense, we sought to add a different spin to the genre by adding more creative freedom to the strategies. While games like Sanctum 2 have implemented similar systems, we wanted to give that unique experience outside the scope of the hybrid-fps multiplayer frame-work.
 
-In the project directory, you can run:
+## How was Ashen Void created?
+Ashen Void utilizes the MERN stack to deliver its user experience. The cloud server is setup using Node.JS and Express, which uses MongoDB to manage user authentication and player saves. When the user navigates to the site, the game is delivered as a single page react application. From there, the player can navigate to the game page which initializes a custom built game engine utilizing the ECS architecture, and React will interface with a GameManager component that handles user inputs as well as all game logic or state management for the game itself. 
 
-### `npm start`
+## How can I contribute?
+If you are interested in contributing or making a mod/spin off, please create an Issue and if it fits within our plan for the game we will authorize a forked repo. Please consider the fact that this project was completed as a showcase of our skills as developers, and while we will consider any requests for contribution that we will not be obligated to do so.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Credits
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Development Team
+**Project Lead** -------------------------------- Alec Greene  
+**Front End** ----------------------------------- Maria Jimena Alvarez  
+**Back End/Sound Suite** ------------------------ Sebasatian Arrazola  
+**Input Handler** ------------------------------- Ron Pitts  
+**Game Engine/Renderer** ------------------------ Alec Greene  
 
-### `npm test`
+### Asset Credits
+**Tower, Base, and Wall Sprites** --------------- Zintoki, https://zintoki.itch.io/ground-shaker  
+**Spaceship Sprites** --------------------------- Gisha, https://gisha.itch.io/spaceships-asset-pack  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Special Thanks

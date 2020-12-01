@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
+
+@font-face{
+    font-family: 'perfect_dark_brkregular';
+    src: url('../styles/webfontkit/pdark-webfont.woff2') format('woff2'),
+         url('../styles/webfontkit/pdark-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.perfect-dark {
+    font-family: 'perfect_dark_brkregular';
+    font-size: 30px;
+    color: #8E979C;
+    text-shadow: -1px 2px rgba(128, 128, 128, 0.5); 
+    background: -webkit-linear-gradient(whitesmoke, #1e2425);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h1 {
+    color: whitesmoke;
+    font-family: 'Coda', cursive;
+    }
+
+    
+/* #codaFont {
+    font-family: 'Coda', cursive;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+} */
+
+

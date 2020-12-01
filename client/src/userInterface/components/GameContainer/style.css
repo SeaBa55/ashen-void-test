@@ -1,0 +1,409 @@
+.game-title {
+  background:linear-gradient(#262626,#eaeaea,#262626);
+  -webkit-background-clip: text;
+  color:transparent;
+  font-size: 40px;
+  font-family: 'perfect_dark_brkregular';
+}
+.game-dispay {
+    background-color: rgba(0, 0, 0, 0.75);
+    font-weight: bold;
+    padding: 0px!important;
+    /* background-image: url('../../assets/starsframe.jpg'); */
+    background-repeat: repeat;
+    background-position: center top;
+}
+
+.glow {
+    background-color: rgba(255, 0, 0, 0.1);
+    padding: 0px!important;
+    animation: intermittente 0.01s infinite alternate;
+    box-shadow:  0px 0px 35px rgba(204, 0, 0, 0.3), 
+      0 0 11px rgba(204, 0, 0, 0.3), 
+      0 0 2px rgba(255, 0, 0, 0.3), 
+      0 0 1px rgba(204, 0, 0, 0.3), 
+      0 0px 17px rgba(204, 0, 0, 0.3), 
+      inset 0px 0 17px rgba(204, 0, 0, 0.3), 
+      inset 0px 0 30px rgba(204, 0, 0, 0.3);
+}
+
+.side-bar {
+    
+    /* background-image: url("../../assets/playpause-btn.png"); */
+    border-style: solid;
+    border-width: 30px 25px;
+    -moz-border-image: url("../../assets/playpause-btn.png") 15 50 15 50 stretch stretch;
+    -webkit-border-image: url("../../assets/playpause-btn.png") 15 50 15 50 stretch stretch;
+    -o-border-image: url("../../assets/playpause-btn.png") 15 50 15 50 stretch stretch;
+    border-image: url("../../assets/playpause-btn.png") 15 50 15 50 stretch stretch;
+}
+
+.side-bar-container {
+    background-color: rgba(37, 37, 37, 0.8);
+}
+
+/* Play/Pause TESt */
+
+.playpause-btn {
+    background-color:transparent!important;
+    border: none;
+    outline:none!important;
+    background-image: url("../../assets/blueButton.png");
+    background-size: 100% 100%;
+    width: 100%;
+    height: 10vh;
+    background-repeat: no-repeat;
+    align-items: center;
+    margin-left: 45px;
+    margin-right: 45px;
+    transition: 0.7s;
+}
+
+  .playpause-btn:hover  {
+  transform: scale(1.2);
+  color: rgba(245, 245, 245, 0.7)!important;
+  }
+
+  
+/* red button */
+
+.bg-red-btn {
+    width: 100px;
+    height: auto;
+    display: block;
+  transition: 0.7s;
+}
+
+.bg-red-btn:hover {
+  transform: scale(1.2);
+}
+
+
+.settings-gear {
+    -webkit-transition: -webkit-transform .3s ease-in-out;
+    transition:         transform .1s ease-in-out;
+    -webkit-filter: drop-shadow( 3px 3px 2px rgba(128, 126, 126, 0.7));
+  filter: drop-shadow( 3px 3px 2px rgba(109, 107, 107, 0.7));
+}
+
+.settings-gear:hover {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+
+/* User w(h)ealth status  */
+#user-status-icons {
+  width: 2.5vw;
+  height: 4vh;
+}
+
+.status-bar {
+  
+  /* background-image: url("../../assets/playpause-btn.png"); */
+  border-style: solid;
+  border-width: 15px 25px;
+  -moz-border-image: url("../../assets/playpause-btn.png") 15 50 15 50 stretch stretch;
+  -webkit-border-image: url("../../assets/playpause-btn.png") 15 50 15 50 stretch stretch;
+  -o-border-image: url("../../assets/playpause-btn.png") 15 50 15 50 stretch stretch;
+  border-image: url("../../assets/playpause-btn.png") 15 50 15 50 stretch stretch;
+}
+
+.status-bar-container {
+  background-color: rgba(37, 37, 37, 0.7);
+}
+
+
+
+
+
+
+
+/*/ **RESPONSIVE DESIGN** /*/
+
+
+/* iPhone 5 LANDSCAPE MODE */
+@media (orientation:landscape)
+and (min-width: 568px) 
+and (max-width: 666px) {
+  /* TBD */
+
+  .game-side-display {
+    overflow: hidden;
+    display: none;
+  }
+
+}
+
+
+/* iPhone 6/7/8 LANDSCAPE MODE */
+@media (orientation:landscape)
+and (min-width: 667px) 
+and (max-width: 735px) {
+
+  .game-side-display {
+    overflow: hidden;
+  }
+
+  .side-bar {
+    border: none!important;
+  }
+
+  .side-bar-container {
+    margin-top:5px;
+    background-color:transparent;
+}
+
+  .eLJxGP {
+    height: 35px!important;
+    width: 35px!important;
+    -webkit-transform: translate(0px,0px);
+    -ms-transform: translate(0px,0px);
+    transform: translate(0px,0px);
+    -webkit-transition: all 100ms;
+    transition: all 100ms;
+  }
+
+  .game-title {
+    display: none;
+  }
+
+  .settings-gear {
+    height: 30px;
+    width: auto;
+  }
+
+  .bg-red-btn {
+    width: 50px;
+    height: auto;
+    display: block;
+    transition: 0.7s;
+  }
+
+  .status-bar {
+    /* display: none; */
+    border: none!important;
+  }
+
+  .status-bar-container {
+    background-color:transparent;
+    height:2vh;
+}
+
+  #user-status-icons {
+    width: 2vw;
+    height: 3vh;
+    padding: 0px!important;
+}
+
+  .status-font {
+    font-family: 'Aldrich', sans-serif;
+    color: rgb(255, 255, 255)!important;
+    font-size: 7px;
+    font-weight: lighter;
+    padding: 2px!important;
+  }
+
+  #customFont {
+    padding: 0px!important;
+  }
+
+  .aldrich-font, ::placeholder {
+    font-family: 'Aldrich', sans-serif;
+    color: rgb(255, 255, 255)!important;
+    font-size: 8px!important;
+    font-weight: lighter;
+  }
+
+}
+
+/* iPhone 6/7/8 Plus LANDSCAPE MODE */
+@media (orientation:landscape)
+and (min-width: 736px) 
+and (max-width: 812px) {
+
+  .side-bar {
+    border: none!important;
+  }
+
+  .side-bar-container {
+    margin-top:5px;
+    background-color:transparent;
+}
+
+  .eLJxGP {
+    height: 35px!important;
+    width: 35px!important;
+    -webkit-transform: translate(0px,0px);
+    -ms-transform: translate(0px,0px);
+    transform: translate(0px,0px);
+    -webkit-transition: all 100ms;
+    transition: all 100ms;
+  }
+
+  .game-title {
+    display: none;
+  }
+
+  .settings-gear {
+    height: 30px;
+    width: auto;
+  }
+
+  .bg-red-btn {
+    width: 40px;
+    height: auto;
+    display: block;
+    transition: 0.7s;
+  }
+
+  .status-bar {
+    /* display: none; */
+    border: none!important;
+  }
+
+  .status-bar-container {
+    background-color:transparent;
+    height:2vh;
+}
+
+  #user-status-icons {
+    width: 2vw;
+    height: 3vh;
+    padding: 0px!important;
+}
+
+  .status-font {
+    font-family: 'Aldrich', sans-serif;
+    color: rgb(255, 255, 255)!important;
+    font-size: 7px;
+    font-weight: lighter;
+    padding: 2px!important;
+  }
+
+  #customFont {
+    padding: 0px!important;
+  }
+
+  .aldrich-font, ::placeholder {
+    font-family: 'Aldrich', sans-serif;
+    color: rgb(255, 255, 255)!important;
+    font-size: 8px!important;
+    font-weight: lighter;
+}
+
+  .status-br-mobile {
+    /* padding: 100px 50px!important; */
+  }
+}
+
+
+/* Tablet Mode */
+@media (min-width: 768px) and (max-width:1023px) {
+  .game-title {
+    background: linear-gradient(#262626,#eaeaea,#262626);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 15px;
+    font-family: 'perfect_dark_brkregular';
+  }
+
+  .settings-gear {
+    height: 75px;
+    width: auto;
+  }
+
+  .bg-red-btn {
+    width: 75px;
+    height: auto;
+    display: block;
+    transition: 0.7s;
+  }
+
+  #user-status-icons {
+    width: 2vw;
+    height: 3vh;
+    padding: 0px!important;
+}
+
+  .status-font {
+    font-family: 'Aldrich', sans-serif;
+    color: rgb(255, 255, 255)!important;
+    font-size: 8px;
+    font-weight: lighter;
+    padding: 2px!important;
+  }
+
+  #customFont {
+    padding: 0px!important;
+  }
+}
+
+
+/* Laptop Screen SM */
+
+@media (min-width: 1024px) and (max-width:1439px) {
+  .game-title {
+    background: linear-gradient(#262626,#eaeaea,#262626);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 20px;
+    font-family: 'perfect_dark_brkregular';
+  }
+
+  .settings-gear {
+    height: 75px;
+    width: auto;
+  }
+
+  .bg-red-btn {
+    width: 75px;
+    height: auto;
+    display: block;
+    transition: 0.7s;
+  }
+
+  #user-status-icons {
+    width: 2vw;
+    height: 3vh;
+    padding: 0px!important;
+}
+
+  .status-font {
+    font-family: 'Aldrich', sans-serif;
+    color: rgb(255, 255, 255)!important;
+    font-size: 10px;
+    font-weight: lighter;
+    padding: 2px!important;
+  }
+
+  #customFont {
+    padding: 0px!important;
+  }
+}
+
+/* Laptop Screen MD */
+
+@media (min-width: 1440px) and (max-width:1679px) {
+  .game-title {
+    background: linear-gradient(#262626,#eaeaea,#262626);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 30px;
+    font-family: 'perfect_dark_brkregular';
+  }
+
+  .settings-gear {
+    height: 50px;
+    width: auto;
+  }
+
+  .bg-red-btn {
+    width: 75px;
+    height: auto;
+    display: block;
+    transition: 0.7s;
+  }
+}
+
+
